@@ -22,7 +22,7 @@ import android.database.sqlite.*;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.os.Build;
 import android.provider.BaseColumns;
-import android.support.v4.util.LruCache;
+import android.util.LruCache;
 import android.util.Log;
 import ollie.internal.AdapterHolder;
 import ollie.internal.ModelAdapter;
@@ -327,7 +327,8 @@ public final class Ollie {
 
 		private void executePragmas(SQLiteDatabase db) {
 			if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.FROYO) {
-				db.execSQL("PRAGMA foreign_keys=ON;");
+				String pragma = "PRAGMA foreign_keys=ON;";
+				db.execSQL(pragma);
 			}
 		}
 
