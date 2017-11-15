@@ -5,6 +5,11 @@ group = 'com.github.smontiel'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile project(':core')
+    compile 'com.google.auto.service:auto-service:1.0-rc3'
+    compile 'com.google.guava:guava:23.4-jre'
+    compile 'com.squareup:javawriter:2.5.1'
 }
 
 sourceCompatibility = "1.7"
