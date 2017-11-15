@@ -20,7 +20,8 @@ android {
 }
 
 dependencies {
-    compile 'com.github.smontiel:tollie:0.0.1'
+    compile 'com.github.smontiel:tollie:0.0.2'
+    annotationProcessor 'com.github.smontiel.tollie:compiler:0.0.2'
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:26.1.0'
