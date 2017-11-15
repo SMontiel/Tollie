@@ -9,6 +9,8 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import ollie.Ollie;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -17,6 +19,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        Ollie.with(this)
+                .setName("App.db")
+                .setVersion(1)
+                .setLogLevel(Ollie.LogLevel.FULL)
+                .setCacheSize(Ollie.DEFAULT_CACHE_SIZE)
+                .init();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
