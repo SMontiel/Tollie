@@ -1,1 +1,1 @@
-include ':app', ':tollie'
+include ':app', ':tollie', ':compiler'
