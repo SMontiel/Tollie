@@ -1,1 +1,1 @@
-include ':app', ':tollie', ':compiler', ':core'
+include ':app', ':tollie', ':compiler', ':core', ':core-rx2', ':compiler-rx2'

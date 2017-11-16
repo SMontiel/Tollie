@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/Tollie.iml" filepath="$PROJECT_DIR$/Tollie.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/compiler/compiler.iml" filepath="$PROJECT_DIR$/compiler/compiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler-rx2/compiler-rx2.iml" filepath="$PROJECT_DIR$/compiler-rx2/compiler-rx2.iml" />
       <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core-rx2/core-rx2.iml" filepath="$PROJECT_DIR$/core-rx2/core-rx2.iml" />
       <module fileurl="file://$PROJECT_DIR$/tollie/tollie.iml" filepath="$PROJECT_DIR$/tollie/tollie.iml" />
     </modules>
   </component>

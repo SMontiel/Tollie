@@ -10,7 +10,9 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/compiler" />
+            <option value="$PROJECT_DIR$/compiler-rx2" />
             <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core-rx2" />
             <option value="$PROJECT_DIR$/tollie" />
           </set>
         </option>
